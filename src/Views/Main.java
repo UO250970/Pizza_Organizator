@@ -20,7 +20,7 @@ public class Main extends Application
 	{
 		Parent root = FXMLLoader.load(getClass().getResource("Mainfx.fxml"));
 		primaryStage.setTitle("Pizza Organizator");
-		primaryStage.setScene(new Scene(root, 400, 400));
+		primaryStage.setScene(new Scene(root, 970, 570));
 		primaryStage.show();
 		
 		MainView.initialize(root);
